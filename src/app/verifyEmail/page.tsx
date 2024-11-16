@@ -4,7 +4,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 // import { useRouter } from "next/router";
 import Link from "next/link";
-export const VerifyEmailPage = () => {
+export default function VerifyEmailPage () {
   //   const router = useRouter()
   const [token, setToken] = useState("");
   const [verfied, setVerfied] = useState(false);
